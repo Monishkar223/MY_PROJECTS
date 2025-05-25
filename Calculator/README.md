@@ -1,63 +1,32 @@
-🧮 Scientific Calculator – Python CLI App
-A simple command-line scientific calculator written in Python. This calculator supports both basic arithmetic and advanced mathematical functions using Python’s built-in math module.
+# 🧮 Scientific Calculator – Python CLI App
 
-📁 File
-calculator.py – The main script that runs the calculator in the terminal.
+A simple **command-line scientific calculator** built using Python. It supports both basic arithmetic operations and advanced mathematical functions using Python’s built-in `math` module.
 
-🔧 Features
-✅ Basic Operations
-Addition (+)
+---
 
-Subtraction (-)
+## 📁 File
 
-Multiplication (*)
+- `calculator.py` – The main script that runs the calculator in the terminal.
 
-Division (/), with error handling for division by zero
+---
 
-🔬 Advanced Operations
-Trigonometric: sin, cos, tan (input in degrees)
+## 🔧 Features
 
-Logarithmic: log (natural logarithm, with domain validation)
+### ✅ Basic Operations
 
-Square Root: sqrt (only for non-negative numbers)
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)  
+  ➤ Handles division by zero with an error message.
 
-Power: base^exponent
+### 🔬 Advanced Operations
 
-🚀 Getting Started
-🧾 Requirements
-Python 3.x
+- `sin` – Sine (angle in degrees)
+- `cos` – Cosine (angle in degrees)
+- `tan` – Tangent (angle in degrees)
+- `log` – Natural logarithm (only for positive numbers)
+- `sqrt` – Square root (only for non-negative numbers)
+- `power` – Exponentiation (`base^exponent`)
 
-No external libraries needed (uses only the standard math module)
-
-▶️ How to Run
-bash
-Copy
-Edit
-python calculator.py
-💡 Sample Usage
-arduino
-Copy
-Edit
-===Scientific Calculator===
-
-Select mode:
-1. Basic Operations
-2. Advanced Operations
-3. Exit
-Enter choice (1/2/3): 2
-
-Advanced operations: sin, cos, tan, sqrt, power
-Enter operation: sin
-Enter number: 30
-Result: 0.5
-
-❗ Error Handling
-Division by zero
-
-Logarithm of non-positive numbers
-
-Square root of negative numbers
-
-Invalid operator or function inputs
-
-
+---
